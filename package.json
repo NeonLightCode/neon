@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/insomniacCod/neon/issues"
   },
-  "homepage": "https://github.com/insomniacCod/neon#readme"
+  "homepage": "https://github.com/insomniacCod/neon#readme",
+  "dependencies": {
+    "js-yaml": "^3.11.0"
+  }
 }
