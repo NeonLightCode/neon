@@ -6,6 +6,7 @@ let config = {};
 try {
 
     config = yaml.safeLoad(fs.readFileSync(__dirname + '/email.yml', 'utf8'));
+    console.log(config);
 
 } catch (e) {
 
